@@ -20,7 +20,9 @@ console.log(userInfo)
 }
 
   return (
-    <div className=' lg:mt-10' >
+    <div className=' lg:mt-10' data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" >
 <UseTitle heading={'CONTACT ME'}></UseTitle>
 
     <form className="card-body  lg:w-[600px] mx-auto text-cen" onSubmit={handleContact}>

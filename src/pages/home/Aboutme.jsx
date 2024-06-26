@@ -28,7 +28,7 @@ const Aboutme = () => {
           </div>
         </div>
 
-        <div className="img mt-8 w-[250px] lg:w-[420px] "  data-aos="flip-left">
+        <div className="img mt-8 w-[250px] lg:w-[420px] "  data-aos="flip-right">
           <img
             src={businness}
             alt="IMAGE"

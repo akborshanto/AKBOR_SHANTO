@@ -12,31 +12,31 @@ const Navbar = () => {
         HOME
       </NavLink>
       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+        className="text-white mx-2  hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/about"}
       >
         ABOUT
       </NavLink>
       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+        className="text-white mx-2   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/skills"}
       >
         SKILLS
       </NavLink>
       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+        className="text-white mx-2   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/portfolio"}
       >
         PORTFOLIO
       </NavLink>
       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+        className="text-white mx-2   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/blog"}
       >
         BLOG{" "}
       </NavLink>
       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+        className="text-white mx-2   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/contact"}
       >
         CONTACT
@@ -45,8 +45,8 @@ const Navbar = () => {
   );
 
   return (
-    <div>
-      <div className="navbar mt-6 mb-4   ">
+    <div className="container ">
+      <div className="navbar mt-6 mb-4  fixed z-50  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -83,14 +83,15 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
-        </div>
-        <div className="navbar-end">
-          <NavLink
+                    <NavLink
             className="text-[#fb5200] mx-4   hover:text-white  hover:transition-transform font-bold text-xl lg:text-2xl  "
             to={"/"}
           >
             LOGIN
           </NavLink>
+        </div>
+        <div className="navbar-end">
+
         </div>
       </div>
     </div>
