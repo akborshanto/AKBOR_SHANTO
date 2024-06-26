@@ -7,7 +7,7 @@ import ContactMe from './contactMe'
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='p-4'>
   
 <Banner></Banner>
 <Aboutme></Aboutme>
