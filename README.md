@@ -1,8 +1,23 @@
-# React + Vite
+# AKBOR SHANTO `s Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website! This site showcases my projects, skills, and experiences. Feel free to explore and learn more about my work.
 
-Currently, two official plugins are available:
+- [PORTFOLIOLIVE]( https://akbor-shanto.web.app) 
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio website is a comprehensive display of my professional journey. It includes my projects, resume, blog posts, and contact information.
+
+## Features
+
+- **Home Page**: A brief introduction and summary of who I am.
+- **About Section**: Detailed information about my background, skills, and experiences.
+- **Projects Page**: A showcase of my major projects with descriptions, screenshots, and links.
+- **Blog Page**: My blog posts on various topics related to my field.
+- **Contact Page**: A contact form to get in touch with me.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js, Express 
+- **Database**: MongoDB, Firebase 
+- **Hosting**:Firease, GitHub Pages

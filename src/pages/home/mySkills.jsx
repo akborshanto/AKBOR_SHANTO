@@ -10,6 +10,8 @@ import boostrap from '../../../public/images/bootstrap.png'
 import git from '../../../public/images/github.png'
 import tailwind from '../../../public/images/tailwind-css.png'
 import react from '../../../public/images/react.png'
+import github from '../../../public/images/github (2).png'
+import firebase from '../../../public/images/firebase.png'
 const MySkills = () => {
   return (
     <div>
@@ -69,6 +71,18 @@ const MySkills = () => {
 
 <img src={mongodb} alt="Html" className="  w-[140px] lg:w-[220px] p-2 lg:p-4  " />
 <h1 className='text-center text-xl lg:text-2xl my-3 font-bold '>Mongo Db</h1>
+
+</div>
+<div   className='border hover:border-red-500 '>
+
+<img src={github} alt="Html" className=" bg-white w-[140px] lg:w-[220px] p-2 lg:p-4  " />
+<h1 className='text-center text-xl lg:text-2xl my-3 font-bold '>GITHUB</h1>
+
+</div>
+<div   className='border hover:border-red-500 '>
+
+<img src={firebase} alt="Html" className="  w-[140px] lg:w-[220px] p-2 lg:p-4  " />
+<h1 className='text-center text-xl lg:text-2xl my-3 font-bold '>FIREBAE</h1>
 
 </div>
 

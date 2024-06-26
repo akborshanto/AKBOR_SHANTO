@@ -7,7 +7,7 @@ import ContactMe from './contactMe'
 
 const Home = () => {
   return (
-    <div className='p-4'>
+    <div className=' overflow-hidden  '>
   
 <Banner></Banner>
 <Aboutme></Aboutme>

@@ -19,7 +19,7 @@ const Banner = () => {
   }
   return (
     <div
-      className=" mt-20 lg:mt-4 lg:border-b-2 " 
+      className=" mt-20 lg:mt-4 lg:border-b-2   " 
 
     >
       <div className="main flex items-center flex-col lg:flex-row lg:justify-around  p-6  my-10 lg:my-20 ">
@@ -41,7 +41,7 @@ const Banner = () => {
           </div>
 
           <div className="content-title">
-            <h1 className=" text-[22px] lg:text-3xl w-[350px] lg:w-[450px] font-bold text overflow-hidden text-red-500 font">
+            <h1 className=" text-[18px] lg:text-3xl w-[310px] lg:w-[450px] font-bold text overflow-hidden text-red-500 font">
               <span className="text-white font-serif  "> Hi , I'm </span>
               <Typewriter
                 words={[" AKBOR SHANTO"]}
