@@ -1,5 +1,6 @@
 import React from 'react'
 import UseTitle from './../../hook/UseTitle';
+import Swal from 'sweetalert2';
 
 const ContactMe = () => {
 
@@ -17,6 +18,13 @@ const userInfo={
 }
 
 console.log(userInfo)
+Swal.fire({title:"Thanks For Feedback 🤩😍",
+  timer:2000,
+  icon:"success",
+
+
+
+});
 }
 
   return (
