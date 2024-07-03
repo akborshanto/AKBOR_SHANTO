@@ -5,6 +5,7 @@ import a9 from "../../../public/images/protfolio/9.png";
 import a11 from "../../../public/images/protfolio/11.png";
 //import a9 from "../../../public/images/protfolio/9.png";
 import an from "../../../public/images/protfolio/an.png";
+import tourism from "../../../public/images/protfolio/tourism.png";
 import { Typewriter } from "react-simple-typewriter";
 const Portfolio = () => {
   return (
@@ -27,32 +28,68 @@ const Portfolio = () => {
 
 
     </div>
-    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_-6px_39px_0px_#f56565] p-2" data-aos='flip-right'>
+    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_-6px_39px_0px_#f56565] relative" data-aos='flip-right'>
+<div className="absolute  top-1/2 left-1/2  ">
+
+<a href="https://south-asia-3915c.web.app/"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+LIVE Link
+    </button></a>
+<a href="https://github.com/akborshanto/SOUTH_ASIA_CLIETN"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+CLIENT
+    </button></a>
+<a href="https://github.com/akborshanto/SOUHTH_ASI_SERVER"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+SERVER
+    </button></a>
+
+
+
+
+</div>
+
+    
     <a href="https://ornate-granita-394c8f.netlify.app/">
-    <img src={an} alt="PORT FOLIO" />
+    <img src={tourism} alt="PORT FOLIO" />
     </a>
-    <div className=" ">
-    <a
-      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      target="_blank"
-    >
-      {" "}
-      <img
-        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-        alt="javascript"
-        className=" w-[50px] lg:w-[50px] my-4   mx-auto"
-      />{" "}
-    </a>
-
-
-  </div>
 
     </div>{" "}
-    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_-6px_10px_0px_#f56565] p-2" data-aos='flip-right'> 
+    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_-6px_39px_0px_#f56565] relative" data-aos='flip-right'> 
+    <div className="absolute  top-1/2 left-1/2  ">
+
+    <a href="https://dazzle-food.web.app/"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    LIVE Link
+        </button></a>
+    <a href="https://github.com/akborshanto/DAZZLE_FOOD_CLIENT"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    CLIENT
+        </button></a>
+    <a href="https://github.com/akborshanto/DAZZLE_FOOD_SERVER"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    SERVER
+        </button></a>
+    
+    
+    
+    
+    </div>
     <a href="https://dazzle-food.web.app/">      <img src={a11} alt="PORT FOLIO" /></a>
 
     </div>
-    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_10px_10px_0px_#f56565] p-2" data-aos='flip-right'>
+    <div className=" w-[ 300px] lg:w-[500px] shadow-[-3px_26px_39px_0px_#f56565] relative" data-aos='flip-right'>
+    <div className="absolute  top-1/2 left-1/2  ">
+
+    <a href="https://graceful-boba-f97b97.netlify.app/"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    LIVE Link
+        </button></a>
+    <a href="https://github.com/akborshanto/BOOK_STUDY"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    CLIENT
+        </button></a>
+    <a href="https://github.com/akborshanto/BOOK_STUDY"><button onClick="location.href='https://github.com/akborshanto/SOUTH_ASIA_CLIETN'" class="border-red-100 hover:border-green-200   text-white rounded-lg border-4 cursor-pointer py-1 lg:py-3 font-bold -skew-x-12 bg-gradient-to-bl from-red-400 to-red-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans">
+    SERVER
+        </button></a>
+    
+    
+    
+    
+    </div>
+
     <a href="https://graceful-boba-f97b97.netlify.app/"> <img src={a9} alt="PORT FOLIO" /></a>
      
     </div>

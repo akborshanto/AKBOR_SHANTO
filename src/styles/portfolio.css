@@ -1,0 +1,77 @@
+body {
+    background-color: #0e0b16;
+    background-image: radial-gradient(circle at 50% 50%, #1f1b2e, #0e0b16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Para evitar scroll */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @keyframes orbit {
+    0% {
+      transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #2e2a4f, #403b69);
+    border: 2px solid #9b5de5;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(155, 93, 229, 0.5);
+    padding: 50px;
+    text-align: center;
+    max-width: 400px;
+    color: #edf2f4;
+    position: relative; /* Para ser referência de posicionamento do astronauta */
+  }
+  
+  .card .image {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: -150px;
+    animation: orbit 8s linear infinite;
+    filter: drop-shadow(0 0 10px #9b5de5);
+  }
+  
+  .card .heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #f72585;
+    text-shadow: 0 4px 8px rgba(247, 37, 133, 0.5);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card .icons a {
+    color: #edf2f4;
+    transition: transform 0.3s, color 0.3s;
+    text-shadow: 0 4px 8px rgba(58, 134, 255, 0.5);
+  }
+  
+  .card .icons a:hover {
+    transform: scale(1.2);
+    color: #f72585;
+  }
+  
+  /* Adicionando efeito neon aos ícones */
+  .card .icons a svg {
+    filter: drop-shadow(0 0 10px #9b5de5);
+  }
+  
