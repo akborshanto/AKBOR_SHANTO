@@ -10,13 +10,13 @@ import { Typewriter } from "react-simple-typewriter";
 const Portfolio = () => {
   return (
   <section>
-  <div className=" my-10 lg:my-24  border-t-2 p-4">
+  <div className=" my-10 lg:my-24  border-t-2 p-4" id="project">
     
   <div  className="grid grid-col1 lg:grid-cols-2 gap-5 justify-items-center mt-8">
     <div className=" w-[ 300px] lg:w-[500px]  flex items-center justify-center">
     <h1 className=" text-[22px] lg:text-3xl w-[350px] lg:w-[450px] font-bold text overflow-hidden text-red-500 font">
 
-          <Typewriter  words={[' MY PORTFOLIO']}
+          <Typewriter  words={[' MY PROJECTS']}
           loop={Infinity}
           cursor
           cursorStyle='🌟'

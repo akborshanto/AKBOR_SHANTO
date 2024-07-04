@@ -9,39 +9,41 @@ const Navbar = () => {
         className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
         to={"/"}
       >
-        HOME
+        Home
       </NavLink>
-{/*       <NavLink
+    <a href="#about"
         className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
-        to={"/about"}
+  
       >
-        ABOUT
-      </NavLink> */}
-{/*       <NavLink
+        About
+      </a> 
+    <a href="#skills"
         className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
-        to={"/skills"}
+  
       >
-        SKILLS
-      </NavLink> */}
-{/*       <NavLink
+        Skills
+      </a> 
+
+    <a href="#project "
         className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
-        to={"/portfolio"}
+  
       >
-        PORTFOLIO
-      </NavLink> */}
+Project
+      </a> 
+    <a href="#education "
+        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+  
+      >
+Education
+      </a> 
+      <a href="#contact-section "
+      className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
+
+    >
+  Contact
+    </a> 
       
-{/*       <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
-        to={"/blog"}
-      >
-        BLOG{" "}
-      </NavLink> */}
-      <NavLink
-        className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
-        to={"/contact"}
-      >
-        CONTACT
-      </NavLink>
+
     </>
   );
 
@@ -88,7 +90,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a  href="#contact"
             className="text-[#fb5200] mx-4   hover:text-white  hover:transition-transform font-bold text-xl lg:text-2xl  "
-            to={"/"}
+           
           >
             LOGIN
           </a>
