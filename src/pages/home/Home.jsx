@@ -9,7 +9,7 @@ import ContactMe from './Contact'
 
 const Home = () => {
   return (
-    <div className=' overflow-hidden  '>
+    <div className=' overflow-hidden mx-auto text-center p-2  '>
   
 <Banner></Banner>
 <Aboutme></Aboutme>

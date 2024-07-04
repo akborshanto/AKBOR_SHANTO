@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import UseTitle from "../../hook/UseTitle";
 import Swal from "sweetalert2";
 
@@ -16,9 +16,23 @@ const ContactMe = () => {
       password,
     };
 
+
+fetch(`${import.meta.env.VITE_API_URL}`,{
+
+  method:"POST",
+  headers:{'content-type':'application/json'},
+  body:JSON.stringify(userInfo)
+})
+.then(res=>console.log("dsaf"))
+
+
+
+
+
+
     console.log(userInfo);
     Swal.fire({
-      title: "Thanks For Feedback 🤩😍",
+      title: "Thanks a Million🤩😍",
       timer: 2000,
       icon: "success",
     });

@@ -36,13 +36,13 @@ Project
       >
 Education
       </a> 
-      <a href="#contact-section "
+{/*       <a href="#contact-section "
       className="text-white mx-4   hover:text-[#fb5200]   hover:underline   hover:transition-transform font-bold text-[18px] mb-2 lg:mb-0 lg:text-xl "
 
     >
   Contact
     </a> 
-      
+       */}
 
     </>
   );
