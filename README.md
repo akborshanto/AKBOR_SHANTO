@@ -1,6 +1,6 @@
 # AKBOR SHANTO `s Portfolio
 
-Welcome to my portfolio website! This site showcases my projects, skills, and experiences. Feel free to explore and learn more about my work.
+Welcome to my portfolio website! This site  showcases my projects, skills, and experiences. Feel free to explore and learn more about my work.
 
 - [PORTFOLIOLIVE]( https://akbor-shanto.web.app) 
 ## Introduction
