@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
 import akbor from "../../../public/images/protfolio/WhatsApp Image 2024-11-30 at 14.36.06_715b2ba8.jpg";
 import profile from "../../../public/images/profle.jpg";
+
 import Swal from 'sweetalert2'
 
 const Banner = () => {
@@ -59,11 +60,9 @@ const Banner = () => {
               <span className="animate-pulse text-[#fb5200] ">FrontEnd</span>Web
               Developer
             </h3>
-            <a
-  download="Akbor Shanto Resume"
-  href="/resume/akobrResume.pdf"
->
-  Download Resume
+            <a download="Akbor Shanto Resume" href={'../assets/resume/akobrResume.pdf'}>
+    Click here to download the resume
+
 
 
               <button className=" bg-red-500 p-2  lg:p-4 rounded-md   font-bold text-white my-4  lg:my-4" onClick={handleCv}>
