@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
-import akbor from "../../../public/images/akbor.jpg";
+import akbor from "../../../public/images/protfolio/WhatsApp Image 2024-11-30 at 14.36.06_715b2ba8.jpg";
 import profile from "../../../public/images/profle.jpg";
 import Swal from 'sweetalert2'
 
@@ -60,10 +60,12 @@ const Banner = () => {
               Developer
             </h3>
             <a
-              download="Akbor shanto resume"
-              href="../../../public/resume/AKBOR SHANTO (3).pdf"
-            >
-              {" "}
+  download="Akbor Shanto Resume"
+  href="/resume/akobrResume.pdf"
+>
+  Download Resume
+
+
               <button className=" bg-red-500 p-2  lg:p-4 rounded-md   font-bold text-white my-4  lg:my-4" onClick={handleCv}>
                 Download CV
               </button>
